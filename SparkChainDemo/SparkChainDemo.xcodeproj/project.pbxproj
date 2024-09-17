@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A809CB2AE12BB8003D3399 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A809CA2AE12BB8003D3399 /* CoreTelephony.framework */; };
+		04A809CE2AE212EF003D3399 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A809CD2AE212EF003D3399 /* ViewController.m */; };
+		04B0210C2AD2A97300E3751A /* SparkChain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B0210A2AD2A92900E3751A /* SparkChain.framework */; };
+		04B0210D2AD2A97300E3751A /* SparkChain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04B0210A2AD2A92900E3751A /* SparkChain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		873008B72A17186900939A81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 873008B62A17186900939A81 /* AppDelegate.m */; };
+		873008C02A17186900939A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873008BE2A17186900939A81 /* Main.storyboard */; };
+		873008C22A17186B00939A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873008C12A17186B00939A81 /* Assets.xcassets */; };
+		873008C52A17186B00939A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873008C32A17186B00939A81 /* LaunchScreen.storyboard */; };
+		873008C82A17186B00939A81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 873008C72A17186B00939A81 /* main.m */; };
+		873008D52A17188100939A81 /* SparkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 873008D22A17188000939A81 /* SparkTableViewCell.m */; };
+		873008D62A17188100939A81 /* SparkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873008D32A17188000939A81 /* SparkViewController.m */; };
+		873008D72A17188100939A81 /* SparkMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 873008D42A17188000939A81 /* SparkMessage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		873008DF2A171E2600939A81 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04B0210D2AD2A97300E3751A /* SparkChain.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04A809CA2AE12BB8003D3399 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		04A809CC2AE212EF003D3399 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04A809CD2AE212EF003D3399 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04B0210A2AD2A92900E3751A /* SparkChain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SparkChain.framework; sourceTree = "<group>"; };
+		873008B22A17186900939A81 /* SparkChainDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkChainDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		873008B52A17186900939A81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		873008B62A17186900939A81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		873008BF2A17186900939A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		873008C12A17186B00939A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		873008C42A17186B00939A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		873008C62A17186B00939A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873008C72A17186B00939A81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		873008CF2A17188000939A81 /* SparkTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SparkTableViewCell.h; sourceTree = "<group>"; };
+		873008D02A17188000939A81 /* SparkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SparkViewController.h; sourceTree = "<group>"; };
+		873008D12A17188000939A81 /* SparkMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SparkMessage.h; sourceTree = "<group>"; };
+		873008D22A17188000939A81 /* SparkTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SparkTableViewCell.m; sourceTree = "<group>"; };
+		873008D32A17188000939A81 /* SparkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SparkViewController.m; sourceTree = "<group>"; };
+		873008D42A17188000939A81 /* SparkMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SparkMessage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		873008AF2A17186900939A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A809CB2AE12BB8003D3399 /* CoreTelephony.framework in Frameworks */,
+				04B0210C2AD2A97300E3751A /* SparkChain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A809C92AE12BB7003D3399 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A809CA2AE12BB8003D3399 /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		873008A92A17186900939A81 = {
+			isa = PBXGroup;
+			children = (
+				873008B42A17186900939A81 /* SparkChainDemo */,
+				873008B32A17186900939A81 /* Products */,
+				04A809C92AE12BB7003D3399 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		873008B32A17186900939A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				873008B22A17186900939A81 /* SparkChainDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		873008B42A17186900939A81 /* SparkChainDemo */ = {
+			isa = PBXGroup;
+			children = (
+				873008D82A17190800939A81 /* Framework */,
+				873008CE2A17188000939A81 /* SparkChain */,
+				873008B52A17186900939A81 /* AppDelegate.h */,
+				873008B62A17186900939A81 /* AppDelegate.m */,
+				04A809CC2AE212EF003D3399 /* ViewController.h */,
+				04A809CD2AE212EF003D3399 /* ViewController.m */,
+				873008BE2A17186900939A81 /* Main.storyboard */,
+				873008C12A17186B00939A81 /* Assets.xcassets */,
+				873008C32A17186B00939A81 /* LaunchScreen.storyboard */,
+				873008C62A17186B00939A81 /* Info.plist */,
+				873008C72A17186B00939A81 /* main.m */,
+			);
+			path = SparkChainDemo;
+			sourceTree = "<group>";
+		};
+		873008CE2A17188000939A81 /* SparkChain */ = {
+			isa = PBXGroup;
+			children = (
+				873008D12A17188000939A81 /* SparkMessage.h */,
+				873008D42A17188000939A81 /* SparkMessage.m */,
+				873008CF2A17188000939A81 /* SparkTableViewCell.h */,
+				873008D22A17188000939A81 /* SparkTableViewCell.m */,
+				873008D02A17188000939A81 /* SparkViewController.h */,
+				873008D32A17188000939A81 /* SparkViewController.m */,
+			);
+			path = SparkChain;
+			sourceTree = "<group>";
+		};
+		873008D82A17190800939A81 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				04B0210A2AD2A92900E3751A /* SparkChain.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		873008B12A17186900939A81 /* SparkChainDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873008CB2A17186B00939A81 /* Build configuration list for PBXNativeTarget "SparkChainDemo" */;
+			buildPhases = (
+				873008AE2A17186900939A81 /* Sources */,
+				873008AF2A17186900939A81 /* Frameworks */,
+				873008B02A17186900939A81 /* Resources */,
+				873008DF2A171E2600939A81 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparkChainDemo;
+			productName = SparkDemo;
+			productReference = 873008B22A17186900939A81 /* SparkChainDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		873008AA2A17186900939A81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					873008B12A17186900939A81 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 873008AD2A17186900939A81 /* Build configuration list for PBXProject "SparkChainDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 873008A92A17186900939A81;
+			productRefGroup = 873008B32A17186900939A81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				873008B12A17186900939A81 /* SparkChainDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		873008B02A17186900939A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873008C52A17186B00939A81 /* LaunchScreen.storyboard in Resources */,
+				873008C22A17186B00939A81 /* Assets.xcassets in Resources */,
+				873008C02A17186900939A81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		873008AE2A17186900939A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A809CE2AE212EF003D3399 /* ViewController.m in Sources */,
+				873008D72A17188100939A81 /* SparkMessage.m in Sources */,
+				873008B72A17186900939A81 /* AppDelegate.m in Sources */,
+				873008D62A17188100939A81 /* SparkViewController.m in Sources */,
+				873008D52A17188100939A81 /* SparkTableViewCell.m in Sources */,
+				873008C82A17186B00939A81 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		873008BE2A17186900939A81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				873008BF2A17186900939A81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		873008C32A17186B00939A81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				873008C42A17186B00939A81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		873008C92A17186B00939A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		873008CA2A17186B00939A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		873008CC2A17186B00939A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6887548QX4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SparkDemo/Framework",
+					"$(PROJECT_DIR)/SparkChainDemo/Framework",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SparkChainDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iflytek.sparkchain.demo.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		873008CD2A17186B00939A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6887548QX4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SparkDemo/Framework",
+					"$(PROJECT_DIR)/SparkChainDemo/Framework",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SparkChainDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iflytek.sparkchain.demo.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		873008AD2A17186900939A81 /* Build configuration list for PBXProject "SparkChainDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873008C92A17186B00939A81 /* Debug */,
+				873008CA2A17186B00939A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		873008CB2A17186B00939A81 /* Build configuration list for PBXNativeTarget "SparkChainDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873008CC2A17186B00939A81 /* Debug */,
+				873008CD2A17186B00939A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 873008AA2A17186900939A81 /* Project object */;
+}
